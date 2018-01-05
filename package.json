@@ -1,0 +1,17 @@
+{
+  "name": "word_game",
+  "version": "1.0.0",
+  "description": "A game where you say words to remove them from the screen",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "author": "Christopher Tiller",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "random-words": "0.0.1"
+  }
+}
